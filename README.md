@@ -5,7 +5,7 @@ The file "MetOData" is a RData containing all the data used in the paper entitle
 
 Once the file has been loaded into R, we will be able to access to a data frame formed by 975 observations (rows), one for each methionine analyzed, and 80 variables (columns). The first column provides the accession number (ACC) for the UniProtKB entry corresponding to the relevant protein. The second column gives the Protein Data Bank identifier (PDB) of the structure used for the computations. The third variable collects the methionine position within the primary structure of the protein. The fourth variable informs about whether the analyzed methionine has been detected in vivo as MetO. The remaining 76 variables are described in detail in the aforementioned paper, as well as the way they have been computed.
 
-The file "PDBdata" is a RData containing the list of the PDB identifiers, UniProt accessions and other information related with the proteins structure analyzed in the current project.
+The file "PDBdata" is a RData containing further information regarding the the list of the PDB files and protein structures analyzed in the current project.
 
 Once the file has been loaded into R, we wil be able to access to a data frame formed by 113 observaions (rows), on for each polypeptide chain analyzed, and 4 columns:
 pdb: PDB ID
