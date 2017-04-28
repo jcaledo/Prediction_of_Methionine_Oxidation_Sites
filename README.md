@@ -14,4 +14,4 @@ ACC: Uniprot accession
 dif: differency in the enumeration between the sequences from Uniprot and PDB
 aggregation: aggregation state of the PDB structure.
 
-The file "Source_Code.zip", once it has been unzipped, contains the script ("Methionine_Oxidation_Predictive_Model.R") that will appeal to other files (all of which are provided and they need to be present in the working directory where you are running MOPM) necessary either to extract the methionine features or to predict their oxidation status using a random forest model described in BMC Bioinformatics paper.
+The file "Source_Code.zip", which can be downloaded from https://dl.dropboxusercontent.com/u/17206080/Source_Code.zip, once it has been unzipped, contains the script ("Methionine_Oxidation_Predictive_Model.R") that will appeal to other files (all of which are provided and they need to be present in the working directory where you are running MOPM) necessary either to extract the methionine features or to predict their oxidation status using a random forest model described in BMC Bioinformatics paper.
